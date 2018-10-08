@@ -1,0 +1,27 @@
+{
+  "name": "zhieq/laravel-region",
+  "description": "zhieq group laravel region",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "zhieq",
+      "email": "developer@zhieq.com"
+    }
+  ],
+  "require": {
+    "laravel/framework": "5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ZhiEq\\Region\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "ZhiEq\\Region\\RegionServiceProvider"
+      ]
+    }
+  }
+}
