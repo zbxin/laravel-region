@@ -1,12 +1,12 @@
 {
-  "name": "zhieq/laravel-region",
-  "description": "zhieq group laravel region",
+  "name": "zbxin/laravel-region",
+  "description": "laravel region",
   "type": "library",
   "license": "MIT",
   "authors": [
     {
-      "name": "zhieq",
-      "email": "developer@zhieq.com"
+      "name": "zbxin",
+      "email": "developer@zbxin.com"
     }
   ],
   "require": {
@@ -14,13 +14,13 @@
   },
   "autoload": {
     "psr-4": {
-      "ZhiEq\\Region\\": "src"
+      "Zbxin\\Region\\": "src"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "ZhiEq\\Region\\RegionServiceProvider"
+        "Zbxin\\Region\\RegionServiceProvider"
       ]
     }
   }

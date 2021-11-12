@@ -1,6 +1,6 @@
 <?php
 
-namespace ZhiEq\Region;
+namespace Zbxin\Region;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;

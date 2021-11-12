@@ -1,6 +1,6 @@
 <?php
 
-namespace ZhiEq\Region;
+namespace Zbxin\Region;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
@@ -32,7 +32,7 @@ class RegionServiceProvider extends ServiceProvider
   public function boot()
   {
     foreach ($this->validators as $validator) {
-      $this->validator()->extend($validator, 'ZhiEq\Region\Validators\\' . Str::studly($validator) . 'Validator@validator');
+      $this->validator()->extend($validator, 'Zbxin\Region\Validators\\' . Str::studly($validator) . 'Validator@validator');
     }
   }
 }

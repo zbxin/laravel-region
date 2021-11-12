@@ -1,6 +1,6 @@
 <?php
 
-namespace ZhiEq\Region;
+namespace Zbxin\Region;
 
 trait AddressText
 {

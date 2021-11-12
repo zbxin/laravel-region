@@ -1,8 +1,8 @@
 <?php
 
-namespace ZhiEq\Region\Validators;
+namespace Zbxin\Region\Validators;
 
-use ZhiEq\Region\Region;
+use Zbxin\Region\Region;
 
 class RegionCityValidator
 {
